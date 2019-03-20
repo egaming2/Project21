@@ -18,6 +18,7 @@ int main(void){
         cin >> ep;
         if(ep==1){
             cout << "Please enter the name file(.txt)" <<endl; 
+            cin >> s;
             if( fp = fopen(s,"r") ){
 
             }
